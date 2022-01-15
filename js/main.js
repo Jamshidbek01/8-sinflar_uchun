@@ -4,7 +4,7 @@ var score = document.getElementsByClassName('input')[0].value;
 if ( score >= 100 ) {
     document.getElementsByClassName('byscore')[0].innerHTML = 'Tabriklaymiz!!! Ertaga Yaypanni centeriga kelsangiz Traiblaizer mashinasini olasiz bu sizning yutug`ingiz';
 }
-else if ( score < 99 && score >= 90 ) {
+else if ( score < 100 && score >= 90 ) {
     document.getElementsByClassName('byscore')[0].innerHTML = 'Tabriklaymiz!!! Ertaga Yaypanni centeriga kelsangiz Iphone 13 Pro Max olasiz bu sizning yutug`ingiz';
 }
 else if ( score < 90 && score >= 70 ) {
